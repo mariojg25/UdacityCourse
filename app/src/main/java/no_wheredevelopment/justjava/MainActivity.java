@@ -47,4 +47,8 @@ public class MainActivity extends AppCompatActivity {
             priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
         }
     }
+
+    private void soloUnaPrueba(){
+
+    }
 }
