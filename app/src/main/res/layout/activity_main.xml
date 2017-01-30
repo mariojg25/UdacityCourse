@@ -21,10 +21,8 @@
         android:layout_marginBottom="16sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:height="48dp"
-        android:width="48dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:text="+"
         android:textSize="16sp"
         android:layout_marginBottom="16sp"
@@ -39,10 +37,8 @@
         android:id="@+id/quantity_text_view" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:height="48dp"
-        android:width="48dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:text="-"
         android:textSize="16sp"
         android:layout_marginTop="16sp"
