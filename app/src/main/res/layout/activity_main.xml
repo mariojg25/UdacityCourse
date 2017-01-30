@@ -9,7 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="no_wheredevelopment.justjava.MainActivity">
+    tools:context="no_wheredevelopment.justjava.MainActivity"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,13 +20,33 @@
         android:textAllCaps="true"
         android:layout_marginBottom="16sp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:width="48dp"
+        android:text="+"
+        android:textSize="16sp"
+        android:layout_marginBottom="16sp"
+        android:onClick="increment" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:textColor="@android:color/black"
-        android:text="0"
+        android:text=""
         android:id="@+id/quantity_text_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:width="48dp"
+        android:text="-"
+        android:textSize="16sp"
+        android:layout_marginTop="16sp"
+        android:onClick="decrement" />
 
     <TextView
         android:layout_width="wrap_content"
